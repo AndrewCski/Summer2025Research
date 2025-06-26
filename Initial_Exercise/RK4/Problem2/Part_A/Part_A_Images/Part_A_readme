@@ -1,0 +1,9 @@
+I put my Y-directional Electric field plots here.
+
+I created plots for different amounts of particle cycles (eg 5 cycles or 10 cycles, indicated in their names)
+
+The timesteps used for each plot are indicated at the ends of their names, in this case I just used 0.0001s and 0.00001s.
+
+From here, for each mix of timestep and number of cycles I plot the energy of the particle throughout its motion, 
+its speed in the x direction throughout its motion, the percentage error between its x direction velocity and the 
+analytical x-direction velocity, and its movement in the x and y dimensions.
