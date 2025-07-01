@@ -1,0 +1,2 @@
+In this attempt, I realized that I neglected the Z-axis of the primary magnetic field detailed in Zimmer's paper, as him not specifying its value and instead calling
+it near-constant resulted in me forgetting to take care of it. I utilize a non-varying -350 nT field for the z-direction.
