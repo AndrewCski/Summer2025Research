@@ -1,1 +1,5 @@
-Here I did the Zimmer Dipole with a radial component and azimuthal component corresponding to their defined cartesian axes and stated strengths of the field in these axes.
+Here I did the Zimmer Dipole with a radial component and azimuthal component corresponding to their defined cartesian axes and stated strengths of the
+field in these axes (amplitude of 200nT for radial component, 75nT for azimuthal component, did they consider the tagential component irrelevant?)
+
+I am just plopping a proton 2 Europa radii away from europa on the x axis, and am messing with a velocity of 950 km/s in the x-direction. This will be changed
+when I go over Nordheim's paper again and try to implement it/learn from it...
