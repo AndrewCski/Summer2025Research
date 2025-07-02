@@ -4,6 +4,10 @@ code to accomodate for this change in structure and handle each particle individ
 The particles are still being traced backwards from their final impact on Europa. I am currently modelling their impact velocities as being 10000000 m/s
 radially indwards toward Europa at their impact sites.
 
+I included two plots, one for a smaller number of particles being modelled, and another ('120_particles') for an increased number of them. In my code, taking
+inspiration from Nordheim, I create a set of points around the surface of Europa at various gaps in theta and phi angles where the particles hit Europa. I used
+dTheta = 30 and dPhi = 60 degrees for the first plot, and dTheta = 20 and dPhi = 30 for the 120 particles plot.
+
 I also took inspiration from Nordheim by including an additional break condition in the loop, as not only does it break upon particles impacting Europa, but 
 it also breaks once they are more than 10 Europa radii away from the moon (their behavior from that far out doesnt tend to be interesting/worth modelling, and 
 they just clutter the graphics). This does not really come into play until I have really high energy particles, who will be modelled not as coming from Europa
