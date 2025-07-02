@@ -1,6 +1,6 @@
 here, there are 2 things of note:
 
-1. I change the numerical model to trace the movement of a particle back in time from a final position and velocity. I use a particle that ends up hitting the surface
+1. I change the numerical model to trace the movement of a particle back in time from a final position and velocity. I use a particle that hits the surface
 of Europa at its equator in the x-most direction, with an x-velocity of 950000 m/s.
 
 2. I found an error in how I represented the primary field of Jupiter, which took the form of applying the z-component only in the loop rather than in the definition
