@@ -1,6 +1,11 @@
 Here I change the code to track multiple particles rather than one. I add an extra dimension to my arrays that store the data, and change the structure of the 
 code to accomodate for this change in structure and handle each particle individually. 
 
+The particles are still being traced backwards from their final impact on Europa. I am currently modelling their impact velocities as being 10000000 m/s
+radially indwards toward Europa at their impact sites.
+
 I also took inspiration from Nordheim by including an additional break condition in the loop, as not only does it break upon particles impacting Europa, but 
 it also breaks once they are more than 10 Europa radii away from the moon (their behavior from that far out doesnt tend to be interesting/worth modelling, and 
-they just clutter the graphics)
+they just clutter the graphics). This does not really come into play until I have really high energy particles, who will be modelled not as coming from Europa
+like most of what you can see in the attached graphic, but instead spiraling towards Europa, mostly like the 2 particles you can see coming from outside on the
+attached graphic (but oscillating in a circle much more as they come in!)
