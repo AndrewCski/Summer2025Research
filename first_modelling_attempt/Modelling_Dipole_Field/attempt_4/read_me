@@ -9,3 +9,6 @@ it also breaks once they are more than 10 Europa radii away from the moon (their
 they just clutter the graphics). This does not really come into play until I have really high energy particles, who will be modelled not as coming from Europa
 like most of what you can see in the attached graphic, but instead spiraling towards Europa, mostly like the 2 particles you can see coming from outside on the
 attached graphic (but oscillating in a circle much more as they come in!)
+
+I find it interesting that most of the particles, even of energies like here of 0.5 MeV (that's pretty energetic, right?) are getting modelling results of
+just coming from Europa and doing a little loop around before landing back on Europa again. Could this be some modelling issue?
