@@ -12,3 +12,5 @@ attached graphic (but oscillating in a circle much more as they come in!)
 
 I find it interesting that most of the particles, even of energies like here of 0.5 MeV (that's pretty energetic, right?) are getting modelling results of
 just coming from Europa and doing a little loop around before landing back on Europa again. Could this be some modelling issue?
+
+I also noticed I put ^-19 instead of ^-9 for the primary B-field magnitude before... Fixed this here!
