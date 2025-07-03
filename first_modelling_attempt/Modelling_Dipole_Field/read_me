@@ -2,4 +2,9 @@ here I am focused on recreating the magnetic field described in Zimmer's paper. 
 an idea of how the field behaves.
 
 I will enumerate my program iterations by folder names. Unless otherwise specified, we can assume that the most recent attempt # is the best/one that
-I want you to read (yes, you my reader!). read_me's in each folder will detail changes made.
+I want you to read (yes, you my reader!). read_me's in each folder will detail changes made since the last attempt.
+
+CURRENT STATE OF THINGS: I have changed the particle in B/E-field tracker to work for Europa based on the magnetic field described in the Zimmer paper.
+I implemented the primary field and secondary field described in the paper, hopefully correctly, such that there is an oscillating x/y component to the primary
+field and a constant z component, and the secondary field reacts to this with the provided dipole equation. I have also changed the code to trace particle motion
+backwards and to trace multiple particles at once. I have been using this to see how particles that end up impacting Europa at various locations came from.
