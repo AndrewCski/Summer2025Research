@@ -3,11 +3,11 @@
 q = 1.602e-19;              % charge of proton (C)
 m = 1.67262192e-27;         % mass of proton (kg)
 
-omega = 2*pi/(11.23*3600);  % Synodic frequency in rad/s
+omega = 2*pi/(11.23*3600);  % synodic frequency in rad/s
 
 % simulation parameters
-numsteps = 10000;                      % Number of time steps
-period = 2 * pi / omega;        % modelling a synodic period
+numsteps = 10000;           % number of time steps
+period = 2 * pi / omega;    % modelling a synodic period
 time = linspace(0, period, numsteps);
 
 % want 50 timesteps per gyration, 3.65.. is computed average primary B field
@@ -36,13 +36,13 @@ B_sec = @(r, M) (mu0/(4*pi)) * (3*dot(r_hat(r), M)*r_hat(r) - M) / norm(r)^3;
 E = [0; 0; 0]; % not using E-field yet, left here for boris method computation
 
 % grid parameters
-theta_list = 90:-15:-90;   % latitude
-phi_list   = 0:30:359;     % longitude
+theta_list = 90:-15:-90;   % latitude (degrees)
+phi_list   = 0:30:359;     % longitude (degrees)
 
 alpha_list = 0:20:80;     % incidence angles relative to normal (in degrees)
 beta_list  = 0:60:359;    % directions in tangent plane (in degrees)
 
-% counting total vectors produced
+% counting particles modelled
 num_points = length(theta_list) * length(phi_list);
 num_directions = length(alpha_list) * length(beta_list);
 N_total = num_points * num_directions;
