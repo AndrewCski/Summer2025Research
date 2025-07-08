@@ -1,8 +1,11 @@
 for this iteration of my program for modelling particle motion, I allow particles to strike Europa at angles rather than only directly into the surface. This is done
 by creating a set of axes around the impact site on Europa, and using a variety of impact angles and directions of impact. In the code, this takes the form of defining
-two angles, alpha and beta. Alpha is the angle between the impact velocity and an axis parallel to the surface (0 degrees is radially inward, 0 would be hitting
-the surface from the side), beta is the direction the particle goes towards (0 degrees would be moving North, 90 degrees is moving East, etc.).
+two angles, alpha and beta. 
+
+Alpha is the angle between the impact velocity and an axis parallel to the surface (0 degrees is radially inward, 90 would be hitting the surface from the side), 
+beta is the direction the particle goes towards (0 degrees would be moving North looking on the surface, 90 degrees is moving East, etc.).
 Figuring out how to represent the coordinates of this took a while, in addition to writing the code since I made a stupid error in defining one of my loops...
 
 Im starting to think now about how I want to represent my results, as just displaying the trajectories of all of the modelled particles is not working out,
-since the graphic is starting to get cluttered and there are more meaningful results to display!
+since the graphic is starting to get cluttered and there are more meaningful results to display! Im thinking of reproducing the heatmaps (that's what they are, right?)
+Nordheim did in his paper depicting the rates at which simulated particles did not loop back around to Europa.
