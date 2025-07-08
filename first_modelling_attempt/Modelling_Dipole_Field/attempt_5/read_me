@@ -6,6 +6,9 @@ Alpha is the angle between the impact velocity and an axis parallel to the surfa
 beta is the direction the particle goes towards (0 degrees would be moving North looking on the surface, 90 degrees is moving East, etc.).
 Figuring out how to represent the coordinates of this took a while, in addition to writing the code since I made a stupid error in defining one of my loops...
 
+The images in this folder are both using this introduction of pitch angles to model the trajectory of particles that hit the surface of Europa at various locations
+and angles, but the first uses far fewer particles than the second.
+
 Im starting to think now about how I want to represent my results, as just displaying the trajectories of all of the modelled particles is not working out,
 since the graphic is starting to get cluttered and there are more meaningful results to display! Im thinking of reproducing the heatmaps (that's what they are, right?)
 Nordheim did in his paper depicting the rates at which simulated particles did not loop back around to Europa.
