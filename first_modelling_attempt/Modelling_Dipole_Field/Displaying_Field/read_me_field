@@ -1,1 +1,9 @@
-hi
+Here I perform the sanity check that is actually looking at my modelled magnetic field inspired by the Zimmer paper. There are two types of graphics that I made here,
+which are heat maps that capture the distribution of a particular component (Bx/By/Bz) of the total B field (B_primary + B_secondary), and the same but gifs that
+capture a whole period rather than a particular instance. 
+
+I divided my results between three folders, each of which are composed of the results I got for each of the B field components. I also represent my results with 
+heat maps that use the x/y axes, x/z axes, and y/z axes (xy/xz/yz in file names), both for snapshots and gifs. For the numbers attached to the snapshots,
+I have 10000 steps per synodic period of Jupiter. This makes 1 timestep the beginning of the period, 2500 timesteps a quarter of the way through, and 5000 halfway.
+
+Im still looking at previous results to make sense of what we are seeing here, but these results seem to make sense? 
