@@ -1,1 +1,5 @@
-oky eah
+Here I change my code to include energies as another parameter that can be set differently for different particles. The energies for individual
+particles are represented by the bars on the right of each plot. 
+
+I observe that higher energies are more likely to not return to Europa's surface when modelled backwards, which I suppose makes sense. There does not seem to
+be too much of a pattern in the landing sites for particles of varying energies, but this could be due the amount of simulated particles being relatively low still.
