@@ -1,0 +1,8 @@
+Here I do not introduce any new exciting features to the code yet, but I instead chose to restructure my code to 
+make it easier to parse/add onto. My one file that I have constantly been writing onto for each of these attempts has
+started to get pretty long, so I think it is more convenient to have much of the mundane operations done in their own
+function files and save the setting of parameters and tracking of results in the main file. Here, I call the main file
+"Splitting_Boris_Pusher_into_functions_attempt.m", but in the feature I might just call this main_particle_tracking_file
+or something. The functions of the other files put here are detailed in the comment blocks at their tops. I will probably
+just slightly modify the main file and create a whole new function file for any future features that I add to our particle
+tracking, which will be attached in the folders I put here in github.
