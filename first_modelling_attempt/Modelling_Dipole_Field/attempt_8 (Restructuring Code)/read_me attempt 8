@@ -6,3 +6,8 @@ function files and save the setting of parameters and tracking of results in the
 or something. The functions of the other files put here are detailed in the comment blocks at their tops. I will probably
 just slightly modify the main file and create a whole new function file for any future features that I add to our particle
 tracking, which will be attached in the folders I put here in github.
+
+Also, I noticed that I was slightly incorrect in how I was assigning initial velocities to particles. I was still using
+KE = .5 * mv^2, but we are working with relativity now, so I have to instead use E = mc^2(sqrt(gamma^2 v^2 / c^2 + 1) - 1).
+To streamline finding the velocities that correspond to energies following this equation, I created a few functions,
+one for solving for the velocity, and another for taking eV energies as inputs rather than joules.
