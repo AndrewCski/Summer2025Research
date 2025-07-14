@@ -1,1 +1,4 @@
-jj
+Here I implement a function to display the number of particles of each energy that 'escape' from Europa ('' is for the fact that I
+am current modelling backwards in time). Messing around with a few different simulation parameters, I keep seeing what is shown here, which 
+is that the lowest energy particles on the backside of Europa are carried away the most, due to the addition of the E-field. Then, regardless 
+of whether there is an E-field or not, the high energy particles at the poles of Europa tend to fly away as well. 
