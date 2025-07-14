@@ -2,3 +2,6 @@ Here I implement a function to display the number of particles of each energy th
 am current modelling backwards in time). Messing around with a few different simulation parameters, I keep seeing what is shown here, which 
 is that the lowest energy particles on the backside of Europa are carried away the most, due to the addition of the E-field. Then, regardless 
 of whether there is an E-field or not, the high energy particles at the poles of Europa tend to fly away as well. 
+
+This can be seen in the trajectories and rates plots that I attached to this folder. The rates folder is just a histogram that depicts the
+number of escaped particles per energy, with the total number of particles modelled per energy displayed in the title.
