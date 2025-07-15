@@ -1,1 +1,10 @@
-fd
+For this iteration of the particle tracer, I implemented the ability to model various elements of particles rather than only
+hydrogen ions. In this instance, I tested the model's ability to model H+, O++, and S+++, depicted in the figures in this folder.
+Each element modelled needs to have its mass, charge, and name implemented into the main folder, and I also changed the files
+for starting the particles and plotting the particle trajectories to account for the new addition, hence their redesign here.
+
+I'm trying to think through whether the results I am currently getting makes sense right now. both O++ and S+++ have lower
+q/m ratios than H+, meaning that the electromagnetic forces on them should be weaker. Although, their increased masses should
+mean that they have lower velocities in order to have the same energies as the other elements, which would make the magnetic
+forces on them even weaker (this is what keeps them on Europa!). Therefore, the electric forces on them should be more easily
+overpowering the magnetic forces and dragging them away from Europa?
