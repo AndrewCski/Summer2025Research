@@ -7,3 +7,6 @@ This nets us higher energy particles impacting the poles of Europa, and multiple
 the side facing the flow of plasma. Due to all sets of particles being started from the same grid spaces, there is some overlap in the
 impact locations of particles, so that is why some points have multiple colors on them. I am currently wondering if there is a better way
 to make sure all of the energies impacting a spot are made known.
+
+What is included here is the main file to run everything, the Impacts.m file is what was utilized here, and Trace_backs.m (prob going to
+rename it) can be utilized for plotting impacts when I am running forward in time.
