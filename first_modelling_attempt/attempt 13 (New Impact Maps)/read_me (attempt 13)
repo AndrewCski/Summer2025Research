@@ -5,8 +5,7 @@ as those of the attempt 12 folder, where I model H+/O++/S+++ together and at ene
 
 This nets us higher energy particles impacting the poles of Europa, and multiple lower energy particles striking the moon from
 the side facing the flow of plasma. Due to all sets of particles being started from the same grid spaces, there is some overlap in the
-impact locations of particles, so that is why some points have multiple colors on them. I am currently wondering if there is a better way
-to make sure all of the energies impacting a spot are made known.
+impact locations of particles, so that is why some points have multiple colors on them. To account for this, I also got the function to
+create 2d impact maps in various axes, and made impact the maps for each individual energy represented.
 
-What is included here is the main file to run everything, the Impacts.m file is what was utilized here, and Trace_backs.m (prob going to
-rename it) can be utilized for plotting impacts when I am running forward in time.
+What is included here is the main file to run everything and the new files to plot impacts in forward or backward modelling.
