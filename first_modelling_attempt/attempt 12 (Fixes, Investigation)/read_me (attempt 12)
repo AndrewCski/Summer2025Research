@@ -1,1 +1,8 @@
-fg
+This iteration and folder serves 2 purposes: 
+
+1. Get a good view of behavior of particles from multiple angles, making it easier to interpret how particles are generally behaving
+
+2. It should not be visually observable, but I made a fix to my function for creating particles from the given set of parameters. I was before
+creating a bunch of duplicates at the poles, as longitudinally going around the moon at the poles makes no difference. In this instance, this 
+reduced the number of simulated particles from 120 to 84. This will likely make less of a difference when I simulate particles at more starting
+positions at once, but this will improve performance and statistical accuracy.
