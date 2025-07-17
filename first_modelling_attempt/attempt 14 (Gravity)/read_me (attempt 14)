@@ -8,4 +8,5 @@ is performing correctly (I did create some plots of the positions of particles t
 so I did not include them here)...
 
 I also include a new edition of my function for mapping particle impacts, as I found my previous version did not work in
-instances where only a single energy of particle is able to escape Europa.
+instances where only a single energy of particle is able to escape Europa. The boris pusher function was also modified
+to use a more intuitive scheme for enabling and disabling the E-field and gravity.
