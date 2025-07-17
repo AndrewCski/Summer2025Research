@@ -1,1 +1,11 @@
-hh
+In this instance of my code, I implement gravititational force to my Boris pusher function, and also make a few unrelated
+fixes within my code.
+
+My implementation of gravity in the Boris pusher is very simple. Before I make my second E-field addition to a particle's
+momentum, I add the change in momentum induced by gravitational force, taking the form -G * m * M * dt / r^2. Since this
+is such a small shift for any object with a mass as small as an individual atom, I am going to just hope for now that it
+is performing correctly (I did create some plots of the positions of particles to try to compare, but this went nowhere
+so I did not include them here)...
+
+I also include a new edition of my function for mapping particle impacts, as I found my previous version did not work in
+instances where only a single energy of particle is able to escape Europa.
