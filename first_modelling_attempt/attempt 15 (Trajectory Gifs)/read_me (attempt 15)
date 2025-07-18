@@ -1,1 +1,4 @@
-dfd
+While making my slides for the APL presentation, I realized that a gif of particle trajectories could really help with making the
+audience understand what my program is doing, especially for backwards tracing. To do this, I made a version of my main file for
+plotting the trajectories of particles and making a gif out of it. Here I also include a slightly modified version of my plotting
+function which has been changed to zoom in an appropriate amount to whatever it plots.
