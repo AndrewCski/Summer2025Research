@@ -1,1 +1,5 @@
-rew
+Here I attempt to recreate the ion access maps created in Nordheim's paper for this simulations. I attach all files that I modified 
+here, as well as the new function file, "Europa_Particle_Accessibilities". In Hydrogen maps, I attach the access maps of various configurations
+where I model hydrogen ions.
+
+In Beginning or Quarter of period, I model the particles at the very beginning or a quarter of a way through the synodic period.
