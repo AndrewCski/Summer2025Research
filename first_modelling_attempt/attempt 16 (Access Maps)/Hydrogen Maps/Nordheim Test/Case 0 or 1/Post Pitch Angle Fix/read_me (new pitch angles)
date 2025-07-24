@@ -1,0 +1,7 @@
+Though I would include my thoughts here.
+
+I have created a new function for generating starting states of particles based on provided latitudes, longitudes, pitch angles, and
+phase angles (I realized I never accounted for this!). I note that these results do not seem as accurate to Nordheim's case 0 results. 
+I included a graphic of what my function generates when I instruct it to create particles at latitudes 90/0/-90. longitudes 0/180, 
+pitch angles 0/30/60/90/120/150/180, and phase angles 0/180. When Nordheim states that he starts the particles at all possible phase
+and pitch angles, is this what he means (ignoring that I do a very limited range here)?
