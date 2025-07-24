@@ -1,9 +1,9 @@
 Thought I would include my thoughts here.
 
 I have created a new function for generating starting states of particles based on provided latitudes, longitudes, pitch angles, and
-phase angles (I realized I never accounted for this!). I note that these results do not seem as accurate to Nordheim's case 0 results. 
-I included a graphic of the trajectories my function generates when I instruct it to create particles at latitudes 90/0/-90 (deg), longitudes 0/180 (deg), 
-pitch angles 0/30/60/90/120/150/180, and phase angles 0/180. When Nordheim states that he starts the particles at all possible phase
+phase angles (I realized I never accounted for this!). I note that these results do not seem as accurate to Nordheim's case 0 results as before the
+pitch angle fix. I included a graphic of the trajectories my function generates when I instruct it to create particles at latitudes 90/0/-90 (deg), 
+longitudes 0/180 (deg), pitch angles 0/30/60/90/120/150/180, and phase angles 0/180. When Nordheim states that he starts the particles at all possible phase
 and pitch angles, is this what he means (ignoring that I do a very limited range here)?
 
 I note how particles in the positive x direction are going to struggle without very wide gyroradii to escape Europa with this field configuration. 
