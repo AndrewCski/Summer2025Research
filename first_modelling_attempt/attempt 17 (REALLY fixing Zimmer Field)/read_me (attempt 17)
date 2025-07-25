@@ -1,3 +1,7 @@
 In this iteration I fix a mistake that has been plaguing me for a while, calculating the magnetic moment with the 
 z-component of the B field. I now introduce the Bz component to the primary field after calculating the secondary
 field. I also keep my new results here.
+
+I also note that I rewrote my main final since it is starting to become a pain to deal with memory/processing time issues.
+It has been further optimized to waste less space and run faster (to be honest it will still be slow, but it really should
+be more efficient on memory and be able to handle more!)
