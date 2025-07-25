@@ -1,0 +1,3 @@
+In this iteration I fix a mistake that has been plaguing me for a while, calculating the magnetic moment with the 
+z-component of the B field. I now introduce the Bz component to the primary field after calculating the secondary
+field. I also keep my new results here.
