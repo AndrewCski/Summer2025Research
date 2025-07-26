@@ -7,9 +7,9 @@ It has been further optimized to waste less space and run faster (to be honest i
 be more efficient on memory and be able to handle more!)
 
 For my results, the stuff at the surface level is what I initially created to test how the new Zimmer field interacts with and
-without an E field generated. From here, we decided to not use the E field. The H+/O++/S+++ folders contain images of the access
-maps for simulations of these elements, where I simulated them in high resolution (compared to before at least, my optimizations
-have helped me get away with more!) with the following parameters:
+without an E field generated. From here, we decided to not use the E field. Looking in "initial new results", the H+/O++/S+++ folders 
+contain images of the access maps for simulations of these elements, where I simulated them in high resolution (compared to before at 
+least, my optimizations have helped me get away with more!) with the following parameters:
 
 Thetas: -90:5:90
 Phis: 0:5:359
