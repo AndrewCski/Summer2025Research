@@ -6,8 +6,8 @@ I also note that I rewrote my main final since it is starting to become a pain t
 It has been further optimized to waste less space and run faster (to be honest it will still be slow, but it really should
 be more efficient on memory and be able to handle more!)
 
-For my results, the stuff at the surface level is what I initially created to test how the new Zimmer field interacts with and
-without an E field generated. From here, we decided to not use the E field. Looking in "initial new results", the H+/O++/S+++ folders 
+For my results (in "initial new results"), the stuff at the surface level is what I initially created to test how the new Zimmer 
+field interacts with and without an E field generated. From here, we decided to not use the E field. The H+/O++/S+++ folders 
 contain images of the access maps for simulations of these elements, where I simulated them in high resolution (compared to before at 
 least, my optimizations have helped me get away with more!) with the following parameters:
 
