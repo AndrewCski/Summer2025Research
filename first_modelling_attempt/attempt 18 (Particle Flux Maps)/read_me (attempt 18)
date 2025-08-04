@@ -1,1 +1,13 @@
-asdf
+Plotting the trajectories when I start simulating thousands of particles starts to become very cumbersome, ESPECIALLY in the tens of thousands, 
+where matlab begins to run the risk of crashing when attempting to plot the trajectories. To get around this, I chose to make plots of the fluxes
+of particles around Europa rather than plotting the trajectories themselves. This takes more computation time to do, but visualizing is far quicker,
+making this overall more fast and stable. 
+
+I include the flux plots and also trajectory plots with lower amounts of particles to demonstrate that it is working. I include two versions of the
+function file, Europa_Particle_Flux.m and True_Europa_Particle_Flux.m. The latter has a change in its algorithm and also calculation of flux, but I
+did not want to get rid of the original form in case I wanted to use that instead. The function works by counting how many times particles enter
+gridspaces in the region around Europa, with the divergence between the two files being that the original will only count a particle entering a
+box once, while the new version counts it everytime a particle enters a box, even if it has done so before. In addition, the new version of the
+file takes the rate at which particles enter gridspaces per second, while the original does the rate per second and per square meter. I chose to
+get rid of the unit area calculation and division in the flux calculation, but it would be easy to reimplement if necessary. The flux plots here
+are done with the new version of the function.
