@@ -1,1 +1,5 @@
-yeah
+Here I plot the magnitude of the total magnetic field around Europa at its surface.
+
+I include plots of various points in the synodic period of Europa. The results seem to make sense, as 
+the 1/4 and 3/4 parts of the period are when the induced field should be at its weakest, and this is 
+true here as the field is essentially just the Jovian z field at those points.
