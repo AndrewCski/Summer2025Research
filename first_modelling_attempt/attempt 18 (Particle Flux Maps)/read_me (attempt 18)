@@ -1,4 +1,4 @@
-Plotting the trajectories when I start simulating thousands of particles is very cumbersome, ESPECIALLY in the tens of thousands, 
+Plotting the trajectories of particles when I start simulating thousands of them is very cumbersome, ESPECIALLY in the tens of thousands, 
 where matlab begins to run the risk of crashing when attempting to plot the trajectories. To get around this, I chose to make plots of the fluxes
 of particles around Europa rather than plotting the trajectories themselves. This takes more computation time to do, but visualizing is far quicker,
 making this overall more fast and stable. 
