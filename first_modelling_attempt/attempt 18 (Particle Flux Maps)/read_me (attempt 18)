@@ -13,4 +13,8 @@ get rid of the unit area calculation and division in the flux calculation, but i
 I am going to reimplement this). The flux plots here are done with the new version of the function.
 
 I am also experimenting with increasing the maximum number of steps. In a high res simulation of 123,578 100 KeV particles, only 206 particles took 5000
-steps or more without hitting a boundary. I was doing 10000 steps max before, I am now trying 50000.
+steps or more without hitting a boundary. I was doing 10000 steps max before, I am now trying 50000. What I find is these particles that, while gyrating, keep
+going up and down on the z axis while slowing going around Europa. I am pretty sure these trajectories are the small tails you can see on the XZ and YZ images.
+I am wondering if this increase in steps is good or not for flux in particular, as a lot of particles on the main trail in the flux images are done before 5000
+steps even, while the particles moving slower get much more time and contribution to flux. I suppose this is somewhat balanced out by their small number, but 
+I do not know what to think.
