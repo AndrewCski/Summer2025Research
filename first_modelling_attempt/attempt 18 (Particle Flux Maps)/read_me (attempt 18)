@@ -11,3 +11,6 @@ box once, while the new version counts it everytime a particle enters a box, eve
 file takes the rate at which particles enter gridspaces per second, while the original does the rate per second and per square meter. I chose to
 get rid of the unit area calculation and division in the flux calculation, but it would be easy to reimplement if necessary (coming back, I think
 I am going to reimplement this). The flux plots here are done with the new version of the function.
+
+I am also experimenting with increasing the maximum number of steps. In a high res simulation of 123,578 100 KeV particles, only 206 particles took 5000
+steps or more without hitting a boundary. I was doing 10000 steps max before, I am now trying 50000.
