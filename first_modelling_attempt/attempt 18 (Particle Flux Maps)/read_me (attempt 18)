@@ -9,5 +9,5 @@ did not want to get rid of the original form in case I wanted to use that instea
 gridspaces in the region around Europa, with the divergence between the two files being that the original will only count a particle entering a
 box once, while the new version counts it everytime a particle enters a box, even if it has done so before. In addition, the new version of the
 file takes the rate at which particles enter gridspaces per second, while the original does the rate per second and per square meter. I chose to
-get rid of the unit area calculation and division in the flux calculation, but it would be easy to reimplement if necessary. The flux plots here
-are done with the new version of the function.
+get rid of the unit area calculation and division in the flux calculation, but it would be easy to reimplement if necessary (coming back, I think
+I am going to reimplement this). The flux plots here are done with the new version of the function.
