@@ -18,4 +18,4 @@ is particles that, while gyrating, keep going up and down on the z axis while sl
 you can see on the XZ and YZ images. I am wondering if this increase in steps is good or not for flux in particular, as a lot of particles on the main trail in the 
 flux images are done before 5000 steps even, while the particles moving slower get much more time and contribution to flux. I suppose this is somewhat balanced out 
 by their small number, but I do not know what to think. I plot the trajectories of the 8 particles out of the 13034 particles simulated who exceed 15000 steps in 
-the slow particles plots.
+the slow particles plots. I also make flux maps comparing making the maximum number of steps 10000 and 90000. These plots are in step num testing folder.
