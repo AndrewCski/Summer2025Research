@@ -1,1 +1,12 @@
 Here I try to replicate the Ganymede environment simulated in Stahl et al.'s and Liuzzo et al.'s papers.
+
+In "field maps", I make plots of the magnetic field of Ganymede, attempting to mimic the first few plots of figure 2
+in Stahl's paper, the field around Ganymede during the Juno PJ34 flyby. I so far have only really changed the background field, 
+the size of the moon, and how the secondary field is computed (compute induced field basically same method as before, calculate 
+permanent dipole in similar fashion). When I check the values of my fields, I get the following:
+
+M_perm = -4.1 * 10^18 J/T x, 9 * 10^18 J/T y, -131 * 10^18 z
+M_ind = 1.1474 * 10^18 J/T x, -1.8358 * 10^18 J/T y, 0 J/T z
+M_ tot = -2.9526 * 10^18 J/T x, 7.1642 * 10^18 y, -131 * 10^18 z
+
+These seem pretty similar to what Stahl had.
