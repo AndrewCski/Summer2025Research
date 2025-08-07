@@ -11,3 +11,7 @@ M_ tot = -2.9526 * 10^18 J/T x, 7.1642 * 10^18 y, -131 * 10^18 z
 
 These seem pretty similar to what Stahl had. The "matched" and "unmatched" in each plot's name means whether I matched the
 colorbar to that of the plots I am making reference to or not.
+
+The x, z, and total field plots seem pretty similar to their counterparts. However, the y field plot that I generated does not
+seem to match that of Stahl's figure very much. Would this be due to their model being a fluid one rather than more analytical
+like mine?
