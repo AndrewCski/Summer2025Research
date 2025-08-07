@@ -17,9 +17,9 @@ seem to match that of Stahl's figure very much. Would this be due to their model
 like mine? I suppose that would also explain why the field lines of all of their plots seem to be flowing to the side a bit, while mine are
 rather straight.
 
-Outside of that folder, I include all of the function files that I had to mess with in order for them to be able to work for the Ganymede code.
+In this attempt folder, I include all of the function files that I had to mess with in order for them to be able to work for the Ganymede code.
 There are a few more functions that I have not editted yet, but I am not going to bother with them for now as I do not expect them to be useful.
-With these, I also include plots of the fluxes of particles in regions around Ganymede (only simulating 1550 particles currently), as well as 
-the trajectories of a few hundred of these particles and an accessibility plot for the 1550 particles.
+In the "test plots" folder, I also include plots of the fluxes of particles in regions around Ganymede (only simulating 1550 particles currently), as 
+well as the trajectories of a few hundred of these particles and an accessibility plot for the 1550 particles.
 
 I am going to hold off from further testing until I get to confirm that my model of Ganymede is correct/elaborate enough to be satisfactory.
