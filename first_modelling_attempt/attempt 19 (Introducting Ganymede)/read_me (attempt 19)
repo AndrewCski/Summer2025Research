@@ -14,4 +14,5 @@ colorbar to that of the plots I am making reference to or not.
 
 The x, z, and total field plots seem pretty similar to their counterparts. However, the y field plot that I generated does not
 seem to match that of Stahl's figure very much. Would this be due to their model being a fluid one rather than more analytical
-like mine?
+like mine? I suppose that would also explain why the field lines of all of their plots seem to be flowing to the side a bit, while mine are
+rather straight.
