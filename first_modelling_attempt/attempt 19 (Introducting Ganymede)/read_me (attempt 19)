@@ -9,4 +9,5 @@ M_perm = -4.1 * 10^18 J/T x, 9 * 10^18 J/T y, -131 * 10^18 z
 M_ind = 1.1474 * 10^18 J/T x, -1.8358 * 10^18 J/T y, 0 J/T z
 M_ tot = -2.9526 * 10^18 J/T x, 7.1642 * 10^18 y, -131 * 10^18 z
 
-These seem pretty similar to what Stahl had.
+These seem pretty similar to what Stahl had. The "matched" and "unmatched" in each plot's name means whether I matched the
+colorbar to that of the plots I am making reference to or not.
