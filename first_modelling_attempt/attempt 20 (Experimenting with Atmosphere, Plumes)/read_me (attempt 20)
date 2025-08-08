@@ -5,5 +5,5 @@ In "Europa Neutrals", I first set up the atmosphere/exosphere distribution aroun
 In "Plume Experimentation", I add onto this by including the ability to randomly place plumes around the surface.
 
 So far, I am tempted to believe my results look rather good. However, I notice in my plume plot that the peak density is nowhere near
-that of the Jia et al. paper (the max I am seeing is ~5e13 / cm^-3, the one they got is 3e20 / m^-2). The differing units (m^2?) makes
+that of the Jia et al. paper (the max I am seeing is ~5e13 / cm^-3, the one they got is 3e20 / m^-2). The differing units (m^-2?) makes
 me wonder if I am doing this wrong.
