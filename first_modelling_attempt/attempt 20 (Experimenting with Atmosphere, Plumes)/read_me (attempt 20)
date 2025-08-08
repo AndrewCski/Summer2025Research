@@ -6,4 +6,5 @@ In "Plume Experimentation", I add onto this by including the ability to randomly
 
 So far, I am tempted to believe my results look rather good. However, I notice in my plume plot that the peak density is nowhere near
 that of the Jia et al. paper (the max I am seeing is ~5e13 / cm^-3, the one they got is 3e20 / m^-2). The differing units (m^-2?) makes
-me wonder if I am doing this wrong.
+me wonder if I am doing this wrong. I tried fixing it to display cm^-2 per box, and this got me closer to their results (max 10^17/m^2), 
+but still not there.
