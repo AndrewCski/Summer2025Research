@@ -20,7 +20,7 @@ phis = atan2(Y, X) + pi;
 phis = mod(phis + pi, 2*pi) - pi;
 
 % base density everywhere
-baseN = n10 .* exp((-r_mag - R_E)/hs1) + n20 .* exp((-r_mag - R_E)/hs2);
+baseN = n10 .* exp(-(r_mag - R_E)/hs1) + n20 .* exp(-(r_mag - R_E)/hs2);
 
 % apply the angular enhancement for |phi| <= pi/2
 halfPlane = abs(phis) <= pi/2;   % picks +/-90° around +x (or around -x if you shifted)
@@ -39,4 +39,5 @@ imagesc(sim_range/1e3, sim_range/1e3, N_n);
 set(gca,'YDir','normal');
 cb = colorbar; cb.Label.String = 'parts/cm^-3';
 xlabel('y (km)'); ylabel('z (km)');
+
 title('Europa Neutral Density Distribution');
