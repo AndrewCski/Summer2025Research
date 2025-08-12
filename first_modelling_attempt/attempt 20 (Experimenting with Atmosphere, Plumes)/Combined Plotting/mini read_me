@@ -1,0 +1,4 @@
+Here I do a combined plot of the B-fields and densities encountered by the Europa Clipper passing through a trajectory.
+The chosen trajectory here is from y = -5 R_E to 5 R_E, and x = -1.05 * R_E. A plume has been set at theta = phi = 0.
+Plotting the densities is a little annoying, as the two plotted here vary significantly in magnitude from each other 
+and both spike heavily at the plume.
