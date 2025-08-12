@@ -1,2 +1,5 @@
 Here I experiment with creating isosurfaces for the flux of particles around Europa as well as the distribution of neutrals around
 the moon.
+
+I run a standard simulation of particles on Europa for the former, setting an arbitrary plotting condition for them to be visualized.
+For the latter, I just placed a plume on the flow-facing side of Europa and then created the plot.
