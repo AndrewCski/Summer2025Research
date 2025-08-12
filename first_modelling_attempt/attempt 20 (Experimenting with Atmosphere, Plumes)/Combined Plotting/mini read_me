@@ -2,3 +2,8 @@ Here I do a combined plot of the B-fields and densities encountered by the Europ
 The chosen trajectory here is from y = -5 R_E to 5 R_E, and x = -1.05 * R_E. A plume has been set at theta = phi = 0.
 Plotting the densities is a little annoying, as the two plotted here vary significantly in magnitude from each other 
 and both spike heavily at the plume.
+
+I am not sure how to implement ionization rates here. Jia gives constant ionization rates of 10^-6 per sec for O2+ production
+and 10^-7 per sec for O+ production, and states that they calculate the corresponding ion production rates by multiplying the neutral 
+density by the given ionization rates. What would I turn this into? Would it make sense to multiply the measured neutral densities in
+the attached plot by these numbers and state the results to be measured ionization rates for these elements?
