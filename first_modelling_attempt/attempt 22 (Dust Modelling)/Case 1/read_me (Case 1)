@@ -4,6 +4,7 @@ Europa.
 
 The following settings are being used:
 
+- 2025 particles in total are modelled
 - no gravity. Mass is calculated from q/m, density, and volume of particles, but this should have no effect as of now as EM forces only use q/m
 - particles are started at x = -3 R_E (Europa Radii), with y and z values ranging from -1.25 R_E to 1.25 R_E
 - these simulations are conducted at the beginning of the synodic period of Europa, where the x/y fields are in positive directions and at their highest magnitudes
