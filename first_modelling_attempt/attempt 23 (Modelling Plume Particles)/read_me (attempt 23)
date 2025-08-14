@@ -1,1 +1,25 @@
-asdfgf
+Here I include my code for modelling particles sourced from a plume on Europa. The code includes the ability to set a plume at any
+longitude/latitude on the surface of Europa. You also have the ability to set the following characteristics of the plume/particles
+that are sourced from it:
+
+- opening angle of the plume
+- angles taken relative to the surface of released particles
+- directions taken by the particles (North, East, etc.)
+- initial speeds of particles
+- q/m ratios of particles
+- radii of particles (I am assuming that dust grains are being used here)
+- densities of dust grains
+
+The code will then release the particles from the set plume and model them until they hit the simulation box border (2 Europa radii)
+or hit the surface again. Gravity is enabled here, which ends up playing a surprisingly signicant role. The Jovian field is set to the
+be at the beginning of a synodic period, meaning maximum strength in positive x and y directions. In the attached plots, I use the
+following parameters:
+
+- plume set at theta = phi = 0, or directly facing towards -x direction, the flow facing side of Europa
+- opening angle of plume is 15 degrees
+- angles relative taken to surface are 0:3:15 degrees
+- directions utilized are 0:60:359 degrees (0 is north, 90 is east, etc.)
+- initial speeds of 100 m/s and 1000 m/s are used
+- q/m ratios of 100 and 1000 C/kg are used
+- dust grain radii of 10, 20, and 30 nm are used
+- dust grain density is set to 2500 kg/m^3
