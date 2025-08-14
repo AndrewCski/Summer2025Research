@@ -23,3 +23,9 @@ following parameters:
 - q/m ratios of 100 and 1000 C/kg are used
 - dust grain radii of 10, 20, and 30 nm are used
 - dust grain density is set to 2500 kg/m^3
+
+This results in 372 particles in total simulated in this test run. This is much less than my usual back tracing of particles from the surface
+of Europa, and even decently less than when I am modelling dust grains sourced from Io coming towards Europa, and this is because the low velocities
+I am using results in these going VERY slow. This results in a VERY large amount of time steps for the particles (often 200,000+!), which makes simulating
+them more straining than other scenarios. The 372 was not that bad at all, but it is signicantly slower than this amount for the first scenario and even
+decently slower than the second.
