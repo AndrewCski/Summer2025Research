@@ -1,0 +1,28 @@
+Here I have my initial code for modelling Io dust passing by Europa. I simulate the dust by creating a uniform grid of dust particles
+up stream of Europa, setting them to have an initial velocity of 100 km/s in the x direction (EPhiO), and letting them run until they hit or pass
+Europa.
+
+The following settings are being used:
+
+- no gravity. Mass is calculated from q/m, density, and volume of particles, but this should have no effect as of now as EM forces only use q/m
+- particles are started at x = -3 R_E (Europa Radii), with y and z values ranging from -1.25 R_E to 1.25 R_E
+- these simulations are conducted at the beginning of the synodic period of Europa, where the x/y fields are in positive directions and at their highest magnitudes
+- q/m ratios used are 1000, 2000, and 5000 C/kg
+- timestep is manually set to 0.01 seconds
+
+For the attached plots, the impact position plots display the number of particles that impact each longitude/latitude combination location on the surface 
+of Europa. Note that 90 degrees faces the orbital direction of Europa, and 0 degrees is towards Jupiter, meaning that most of these particles are hitting the 
+"backside" or flow-facing side of Europa (this is expected!). I am considering replacing these with percentages taken via the total number of particles that impact 
+Europa, but I am not sure about that yet. The starting position plots display the rates at which particles started at each starting coordinate are able to impact 
+Europa. Currently, with no variance in the characteristics of particles besides their start positions, these are all just going to be 100/0 for whether they hit 
+Europa or not, but this could be more interesting in the future. I also attach trajectory plots of a small subsection of simulated particles to display their 
+behaviors directly.
+
+I did not want to do too much yet/do this with Ganymede until I can ensure everything being done here is correct/appropriate. I recall that we could set varying
+velocity angles for particles, and I think it could be interesting to experiment with varying masses (if they do anything) when enabling gravity, or to mess
+around with varying starting velocity magntitudes, along with anything else I am not thinking of.
+
+I admit that I forgot whether the dust particles should have positive or negative charges, so I have included a negative charge simulation as well. I generally notice
+that the particles are only slightly pushed by the Jovian field, and their limited time next to Europa and Europa's limited induced field strength both result
+in the particles not really being affected by Europa's field. I wonder if Ganymede's stronger internal field and weaker Jovian background field will change this
+to some degree!
