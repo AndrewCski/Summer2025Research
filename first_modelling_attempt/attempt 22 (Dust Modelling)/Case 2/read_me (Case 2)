@@ -1,1 +1,6 @@
-adsf
+Here I outfit my dust modelling code to also work for Ganymede. I run some preliminary tests here with similar parameters to Europa.
+Some things to note:
+
+- I am using an ambient Jovian field of -15 nT in x direction, 24 nT y, and -75 nT z. I do not know how the field oscillates, so I pulled these
+numbers from a Juno flyby noted in "A Model of Ganymede's Magnetic and Plasma Environment During the Juno PJ34 Flyby" by Aaron Stahl et al.
+- I switched the particle velocities from 100 km/s to 200 km/s.
