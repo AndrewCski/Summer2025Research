@@ -17,7 +17,7 @@ of Europa. Note that 90 degrees faces the orbital direction of Europa, and 0 deg
 Europa, but I am not sure about that yet. The starting position plots display the rates at which particles started at each starting coordinate are able to impact 
 Europa. Currently, with no variance in the characteristics of particles besides their start positions, these are all just going to be 100/0 for whether they hit 
 Europa or not, but this could be more interesting in the future. I also attach trajectory plots of a small subsection of simulated particles to display their 
-behaviors directly.
+behaviors directly, these are in the "trajectories" folder. 
 
 I did not want to do too much yet/do this with Ganymede until I can ensure everything being done here is correct/appropriate. I recall that we could set varying
 velocity angles for particles, and I think it could be interesting to experiment with varying masses (if they do anything) when enabling gravity, or to mess
