@@ -28,4 +28,4 @@ This results in 372 particles in total simulated in this test run. This is much 
 of Europa, and even decently less than when I am modelling dust grains sourced from Io coming towards Europa, and this is because the low velocities
 I am using results in these going VERY slow. This results in a VERY large amount of time steps for the particles (often 200,000+!), which makes simulating
 them more straining than other scenarios. The 372 was not that bad at all, but it is signicantly slower than this amount for the first scenario and even
-decently slower than the second.
+decently slower than the second. Also worth noting that I used a lower timestep here than I probably should have been... Will make it larger in the future!
