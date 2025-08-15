@@ -1,5 +1,3 @@
-
-
 R_E = 1560e3;                                % Europa radius (m)
 num_spots = 10000;
 test_line = zeros(num_spots, 3);
@@ -38,5 +36,6 @@ plot(paper_e_density, (test_line(:,2) - R_E)./1e3)
 xlabel('electron densities (cm^{-3})')
 ylabel('altitude (km)')
 title('Electron Densities in Europa exosphere')
+
 
 
