@@ -9,13 +9,6 @@ neutral_densities = get_neutral_vol_density(test_line(:,1), test_line(:,2), test
 O_ion_rates = neutral_densities .* 1e-6;
 O2_ion_rates = neutral_densities .* 1e-7;
 
-% paper_e_density = zeros(num_spots, 1);
-% for i = 1:length(tau)
-%     paper_e_density(i) = 6.5e3*exp((-test_line(i,2) + R_E)/440);
-%     if test_line(i,2) - R_E < 300e3
-%         paper_e_density(i) = paper_e_density(i) + 6.5e3*exp((-test_line(i,2) + R_E)/240e3);
-%     end
-% end
 paper_e_density = 3.25e3*(exp((-test_line(:,2) + R_E)/440e3) + exp((-test_line(:,2) + R_E)/240e3));
 
 tau = 60 + 80*exp((-test_line(:,2) + R_E)/1000e3);                    % trying to come up with                  % trying to come up with 
@@ -44,4 +37,5 @@ figure;
 plot(paper_e_density, (test_line(:,2) - R_E)./1e3)
 xlabel('electron densities (cm^{-3})')
 ylabel('altitude (km)')
+
 title('Electron Densities in Europa exosphere')
