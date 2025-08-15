@@ -11,7 +11,7 @@ O2_ion_rates = neutral_densities .* 1e-7;
 
 paper_e_density = 3.25e3*(exp((-test_line(:,2) + R_E)/440e3) + exp((-test_line(:,2) + R_E)/240e3));
 
-tau = 60 + 80*exp((-test_line(:,2) + R_E)/1000e3);                    % trying to come up with                  % trying to come up with 
+tau = 60 + 80*exp((-test_line(:,2) + R_E)/1000e3);
 
 electron_densities = (O_ion_rates + O2_ion_rates) .* tau;
 
@@ -39,3 +39,4 @@ xlabel('electron densities (cm^{-3})')
 ylabel('altitude (km)')
 
 title('Electron Densities in Europa exosphere')
+
