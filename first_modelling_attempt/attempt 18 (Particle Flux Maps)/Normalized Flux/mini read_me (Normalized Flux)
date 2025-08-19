@@ -1,1 +1,4 @@
-adsf
+Here I include update versions of my functions for plotting the fluxes of particles through binned regions around Europa. The major change here is
+that I normalize my results, which helps make them more meaningful than trying to devise a physical flux from a rather unphysical simulation (simulating 
+a set number of only a subset of particles and trying to call results from that a realistic flux is not ideal!). The 2d and isosurface plotting functions
+and results are included here. 
