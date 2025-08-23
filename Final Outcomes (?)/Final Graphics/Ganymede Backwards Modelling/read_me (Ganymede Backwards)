@@ -1,1 +1,16 @@
-fds
+Here I include my Accessibility Plots from modelling ions around Ganymede. By accessibility plots, I mean the rates at which particles started in a
+uniform grid and at varying energies and impact directions around Europa's surface are able to escape the planet when traced back in time.
+
+Paramters:
+
+Synodic Period of 10.53 Hours
+Thetas (Latitude): -90:5:90
+Phis (Longitude): 0:5:359
+Incident Angles (angle relative to normal of surface at impact point): 0:10:80
+Impact Direction Angles (North/East/South/West at Surface Direction of Impact): 0:60:359
+Jovian Background Field is [15 * cos(omega * t), -80 * sin(omega * t - pi/4.5); -75] nT (x, y, and z in GPhiO Coordinates)
+An induced dipole moment of ((-2 * pi * 0.84 * R_G^3) / mu0) * B_prim J/T is used (B_prim is Jovian field without z component, R_G is Ganymede radius)
+An intrinsic dipole moment of [-4.1; 9; -131] * 1e18 J/T is used
+Gravity is enabled
+
+Each folder specifies the element used, impact energy used, and the point in the synodic period that the simulation is started in.
