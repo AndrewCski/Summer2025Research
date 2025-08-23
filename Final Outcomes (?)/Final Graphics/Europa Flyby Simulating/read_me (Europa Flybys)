@@ -14,5 +14,6 @@ I take the neutral densities measured on a line between the spacecraft's positio
 together, then multiply the result by the lifetimes for each altitude. From this found electron density at each altitude, I integrate to get an electron column
 density measured by the spacecraft.
 
-The trajectories taken by the spacecraft, as well as a visual representation of stated plume coordinates are displayed in the "SpaceCraft Trajectories" images.
-Gifs of the readings over each flyby are provided here, where each frame is the measurements taken over the flyby with a different plume position.
+The trajectories taken by the spacecraft are displayed in the "SpaceCraft Trajectories" images. Gifs of the readings over each flyby are provided here, 
+where each frame is the measurements taken over the flyby with a different plume position. In the gifs, theta is the latitude of the plume opening on the surface,
+phi is the plume opening longitude (0 degrees is facing Jupiter, 90 facing Europa orbital direction, etc.). 
