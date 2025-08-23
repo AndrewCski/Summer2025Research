@@ -23,7 +23,8 @@ Ions:
 
 For attached plots, "energy diffs" refers to the changes in particle energies from ejection to reimpact, "Height Dists" refers to the amount of particles that
 achieved certain maximum altitudes above the surface, "Max Heights" refers to the maximum heights achieved by particles of certain configurations (radii or initial
-energy for dust and ions, respectively). Some trajectory plots are included too to display particle behaviors.
+energy for dust and ions, respectively). Some trajectory plots are included too to display particle behaviors. t0 and t25 refer to if the simulation happens at
+the start of a synodic period (0, x component of B at + maximum) or a quarter of the way through (25 y component of B at - maximum)
 
 Plume locations are more limited in ion simulations as I find that particles are being draged away from Europa in a nearly identical manner for a starting points
 that are not on the flow-facing side of the moon. For both dust and ions, particles are generally dragged to the East/South-East when looking at the surface,
