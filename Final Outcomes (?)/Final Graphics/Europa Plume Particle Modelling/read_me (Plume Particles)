@@ -1,1 +1,20 @@
-ddf
+Here I numerically trace the trajectories of particles ejected from plumes on the surface of Europa. The following settings are used in each
+case, and those after are for modelling dust grains or ionized particles.
+
+- opening angle of plume is 15 degrees
+- angles relative taken to surface are 0:1:15 degrees
+- directions utilized are 0:1:359 degrees (0 is north, 90 is east, etc.)
+
+Dust:
+
+- dust grain radii of 10^-7 - 10^-3 m are used
+- corresponding initial speeds are pulled from Degruyter et al.'s paper
+- q/m ratios of 0, 1, and 10 C/kg are used
+- dust grain density is set to 920 kg/m^3
+- an E = -v x B electric field is utilized here. This is meant to replicate the electric field generated from passing ambient magnetospheric plasma.
+v = 90 km/s in the x direction.
+
+Ions:
+
+- initial speeds from 1000 to 50000 m/s are used
+- H+ is utilized here
