@@ -9,6 +9,7 @@ Phis (Longitude): 0:5:359
 Incident Angles (angle relative to normal of surface at impact point): 0:10:80
 Impact Direction Angles (North/East/South/West at Surface Direction of Impact): 0:60:359
 Jovian Background Field is [75 * cos(omega * t), -200 * sin(omega * t); -385] nT (x, y, and z in EPhiO Coordinates)
+An induced dipole field of -(4*pi/mu0) * B_prim .* (R_E^3)/2 is used (B_prim is Jovian field without z component, R_E is Europa radius)
 Gravity is enabled
 
 Each folder specifies the element used, impact energy used, and the point in the synodic period that the simulation is started in.
