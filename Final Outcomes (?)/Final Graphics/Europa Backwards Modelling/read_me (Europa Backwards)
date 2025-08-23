@@ -1,1 +1,14 @@
-asdf
+Here I include my Accessibility Plots from modelling ions around Europa. By accessibility plots, I mean the rates at which particles started in a
+uniform grid and at varying energies and impact directions around Europa's surface are able to escape the planet when traced back in time.
+
+Paramters:
+
+Synodic Period of 11.23 Hours
+Thetas (Latitude): -90:5:90
+Phis (Longitude): 0:5:359
+Incident Angles (angle relative to normal of surface at impact point): 0:10:80
+Impact Direction Angles (North/East/South/West at Surface Direction of Impact): 0:60:359
+Jovian Background Field is [75 * cos(omega * t), -200 * sin(omega * t); -385] nT (x, y, and z in EPhiO Coordinates)
+Gravity is enabled
+
+Each folder specifies the element used, impact energy used, and the point in the synodic period that the simulation is started in.
