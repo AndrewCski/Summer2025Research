@@ -20,3 +20,10 @@ Ions:
 - initial velocity directions utilized are 0:1:359 degrees 
 - initial speeds from 100 to 10000 m/s are used
 - H+ is utilized here
+
+For attached plots, "energy diffs" refers to the changes in particle energies from ejection to reimpact, "Height Dists" refers to the amount of particles that
+achieved certain maximum altitudes above the surface, "Max Heights" refers to the maximum heights achieved by particles of certain configurations (radii or initial
+energy for dust and ions, respectively). Some trajectory plots are included too to display particle behaviors.
+
+Plume locations are more limited in ion simulations as I find that particles are being draged away from Europa in a nearly identical manner for a starting points
+that are not on the flow-facing side of the moon. 
