@@ -26,4 +26,5 @@ achieved certain maximum altitudes above the surface, "Max Heights" refers to th
 energy for dust and ions, respectively). Some trajectory plots are included too to display particle behaviors.
 
 Plume locations are more limited in ion simulations as I find that particles are being draged away from Europa in a nearly identical manner for a starting points
-that are not on the flow-facing side of the moon. 
+that are not on the flow-facing side of the moon. For both dust and ions, particles are generally dragged to the East/South-East when looking at the surface,
+the result of B field and E field interference.
