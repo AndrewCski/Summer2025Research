@@ -1,1 +1,17 @@
-fad
+Here I store the graphics of simulations that I have ran.
+
+- Europa B Field Plots are varying gifs of the behavior of Europa's magnetic environment over a synodic period
+
+- Europa Backwards Modelling is the plots describing particle behavior when simulated backwards from the Europa Surface
+
+- Europa Flyby Simulating is plots depicting particle distrbutions in Europa's exosphere, as well as theoretical Europa Clipper
+readings from passing by the moon
+
+- Europa Plume Particle Modelling is plots describing the behavior of individually simulated ions and dust grains ejected from
+Europa's surface from a plume 
+
+- Ganymede B Field Plots are varying gifs of the behavior of Ganymede's magnetic environment over a synodic period
+
+- Ganymede Backwards Modelling is the plots describing particle behavior when simulated backwards from the Ganymede Surface
+
+- Io Dust Tracing is plots describing the behavior of ionized dust particles from Io passing by Europa and Ganymede
