@@ -1,1 +1,23 @@
-cf
+Here I include results from attempting to trace Io Dust particles circulating around the Jovian system and passing by Europa or Ganymede. 
+
+Io dust is simulated by starting it in the -x EPhiO/GPhiO direction and launching it forward in the +x direction towards Europa/Ganymede until it
+hits the moon or passes by far enough to not turn back in. Plots included are trajectories taken by the dust, as well as normalized accessibility plots
+indicating how often particles started in certain positions hit the moon and how often certain parts of the moon are hit. Most of the accessibility
+plots only have 0/100 everywhere, but this would change if particles of multiple different parameters were run at once, such as varying initial velocity angles,
+q/m ratios, or masses. The following are the parameters used:
+
+Generally:
+
+- particles are started at beginning of moon's synodic period or 1/4 through ("t0" and "t25" in file names)
+- q/m ratios used are 1000, 2000, and 5000 C/kg
+- particles are started at -3 moon radii in the x direction, and a 2.5 x 2.5 moon radii grid on the yz axis
+- particle radii of 10e-9 m and density 2500 kg/m^3 are used
+- 900 particles are simulated in total, uniformly distributed about the starting grid
+
+Europa:
+
+- initial velocity is 100000 m/s in x direction
+
+Ganymede:
+
+- initial velocity is 200000 m/s in x direction
