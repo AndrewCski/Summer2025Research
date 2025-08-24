@@ -13,3 +13,5 @@ An induced dipole field of -(4*pi/mu0) * B_prim .* (R_E^3)/2 J/T is used (B_prim
 Gravity is enabled
 
 Each folder specifies the element used, impact energy used, and the point in the synodic period that the simulation is started in.
+The "Flux" plots are created by setting a uniform grid of boxes around Europa, tracking how many particles enter each box through the simulation, 
+and then normalizing the results. For the Iso plots, the grid is 3d rather than 2d and only regions above a certain value are plotted.
