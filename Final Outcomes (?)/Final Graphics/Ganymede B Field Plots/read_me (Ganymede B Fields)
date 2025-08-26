@@ -1,3 +1,5 @@
-Here I include gifs depicting the behavior of the magnetic field around Ganymede across one synodic period of the moon. These
-each capture a different component of the field in a different set of axes. This is the same field utilized in other Ganymede simulations here,
-and the three components of the field here are the Jovian background field, Ganymede's weak induced dipole field, and the moon's intrinsic dipole field.
+Here I include gifs depicting the behavior of the magnetic field around Ganymede across one synodic period of the moon. These each capture a 
+different component of the field in a different set of axes. I also include snapshots of each of the components of the B field at Ganymede's
+surface at different points in its synodic period, meant to be paired with accessibility plots (they are in similar format). This is the same 
+field utilized in other Ganymede simulations here, and the three components of the field here are the Jovian background field, Ganymede's weak 
+induced dipole field, and the moon's intrinsic dipole field.
