@@ -12,7 +12,7 @@ Generally:
 - q/m ratios used are 1000, 2000, and 5000 C/kg
 - particles are started at -3 moon radii in the x direction, and a 2.5 x 2.5 moon radii grid on the yz axis
 - particle radii of 10e-9 m and density 2500 kg/m^3 are used
-- 900 particles are simulated in total, uniformly distributed about the starting grid
+- 900 particles are simulated in total, uniformly distributed about the starting grid (Higher res plots are 2500 particles)
 
 Europa:
 
