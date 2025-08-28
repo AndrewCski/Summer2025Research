@@ -36,8 +36,8 @@ for g = 1:length(init_energies)
                     phi = deg2rad(phi_list(j));
             
                     % sphere position
-                    x = body_radius * cos(theta) * cos(phi);
-                    y = body_radius * cos(theta) * sin(phi);
+                    x = body_radius * cos(theta) * sin(phi);
+                    y = body_radius * cos(theta) * cos(phi);
                     z = body_radius * sin(theta);
                     point = [x, y, z];
             
@@ -165,4 +165,5 @@ init_v_vectors = init_v_vectors(~rows_to_delete, :);
 particle_traits = particle_traits(~rows_to_delete, :);
 element_array = element_array(~rows_to_delete, :);
 elements = element_array;
+
 N_total = length(elements);
