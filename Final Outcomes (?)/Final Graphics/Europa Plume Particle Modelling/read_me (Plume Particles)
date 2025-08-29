@@ -23,7 +23,9 @@ Ions:
 
 For attached plots, "energy diffs" refers to the changes in particle energies from ejection to reimpact, "Height Dists" refers to the amount of particles that
 achieved certain maximum altitudes above the surface, "Max Heights" refers to the maximum heights achieved by particles of certain configurations (radii or initial
-energy for dust and ions, respectively). Some trajectory plots are included too to display particle behaviors. t0 and t25 refer to if the simulation happens at
+energy for dust and ions, respectively), and "Impact Rates" refers to the normalized rates at which modelled particles impact sections of a grid overlaid onto 
+Europa's surface (NOTE: the "tendrils" from the plume bases here are from me only being able to simulate so many particles ejected in so many directions, this
+is should NOT be a physical phenomenon!). Some trajectory plots are included too to display particle behaviors. t0 and t25 refer to if the simulation happens at
 the start of a synodic period (0, x component of B at + maximum) or a quarter of the way through (25 y component of B at - maximum)
 
 Plume locations are more limited in ion simulations as I find that particles are being draged away from Europa in a nearly identical manner for a starting points
