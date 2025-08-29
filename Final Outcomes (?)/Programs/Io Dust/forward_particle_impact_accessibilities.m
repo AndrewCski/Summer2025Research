@@ -56,8 +56,8 @@ end
 
 figure;
 clf;
-if fitted
-    logical_array = Z > 0.25; % zooming in to where plume particles actually land with some frequency
+if fitted % zooming in to where plume particles actually land with some frequency
+    logical_array = Z > 0.1;
     rows = any(logical_array, 2);
     cols = any(logical_array, 1);
     Z_2 = Z(rows, :);
@@ -65,9 +65,12 @@ if fitted
     phi_2 = phis(cols);
     theta_2 = thetas(rows);
     imagesc(phi_2, theta_2, Z_3);  
+    set(gca, 'ColorScale', 'log');
+    clim([0.1 100])
 else
-    imagesc(phis, thetas, Z);              
-end             
+    imagesc(phis, thetas, Z);  
+    clim([0 max(Z(:))]);
+end
 set(gca,'YDir','normal'); 
 ylabel('Latitude (Degrees)')                              
 xlabel('Longitude (Degrees)')           
@@ -78,7 +81,6 @@ cb = colorbar;
 if ~normalized
     cb.Label.String = '# of Impacts';
 end
-clim([0 max(Z(:))]);
 
 if lower(mode) == "q/m" && all(q_over_m == q_over_m(1), 'all')
     title(sprintf('Impact Rates Per %s Surface Positions, q/m = %.3g', moon_string, q_over_m(1)));
@@ -86,7 +88,6 @@ elseif lower(mode) == "element" || lower(mode) == "elements"
     title(sprintf('%s Impact Rates Per %s Surface Positions', element, moon_string));
 else
     title(sprintf('Impact Rates Per %s Surface Positions', moon_string));
-
 end
 
 
