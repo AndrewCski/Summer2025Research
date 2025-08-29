@@ -1,5 +1,5 @@
 function [ ] = forward_particle_impact_accessibilities(impact_coords, group_width, q_over_m, moon, ...
-    element, mode, normalized)
+    element, mode, normalized, fitted)
 
     % Function for finding how often particle impact certain parts of
     % Europa's/Ganymede's surface. Can be used for simulating plume particles
@@ -56,7 +56,15 @@ end
 
 figure;
 clf;
-imagesc(phis, thetas, Z);              
+if fitted
+    Z_2 = Z(any(Z, 2), :);
+    Z_3 = Z_2(:, any(Z_2, 1));
+    phi_2 = phis(any(Z_2, 1));
+    theta_2 = thetas(any(Z, 2));
+    imagesc(phi_2, theta_2, Z_3);  
+else
+    imagesc(phis, thetas, Z);              
+end             
 set(gca,'YDir','normal'); 
 ylabel('Latitude (Degrees)')                              
 xlabel('Longitude (Degrees)')           
@@ -75,4 +83,5 @@ elseif lower(mode) == "element" || lower(mode) == "elements"
     title(sprintf('%s Impact Rates Per %s Surface Positions', element, moon_string));
 else
     title(sprintf('Impact Rates Per %s Surface Positions', moon_string));
+
 end
