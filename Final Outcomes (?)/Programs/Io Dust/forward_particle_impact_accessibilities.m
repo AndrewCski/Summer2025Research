@@ -57,10 +57,13 @@ end
 figure;
 clf;
 if fitted
-    Z_2 = Z(any(Z, 2), :);
-    Z_3 = Z_2(:, any(Z_2, 1));
-    phi_2 = phis(any(Z_2, 1));
-    theta_2 = thetas(any(Z, 2));
+    logical_array = Z > 0.25;
+    rows = any(logical_array, 2);
+    cols = any(logical_array, 1);
+    Z_2 = Z(rows, :);
+    Z_3 = Z_2(:, cols);
+    phi_2 = phis(cols);
+    theta_2 = thetas(rows);
     imagesc(phi_2, theta_2, Z_3);  
 else
     imagesc(phis, thetas, Z);              
@@ -85,3 +88,4 @@ else
     title(sprintf('Impact Rates Per %s Surface Positions', moon_string));
 
 end
+
