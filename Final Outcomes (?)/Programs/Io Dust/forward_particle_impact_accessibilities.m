@@ -57,7 +57,7 @@ end
 figure;
 clf;
 if fitted
-    logical_array = Z > 0.25;
+    logical_array = Z > 0.25; % zooming in to where plume particles actually land with some frequency
     rows = any(logical_array, 2);
     cols = any(logical_array, 1);
     Z_2 = Z(rows, :);
@@ -88,4 +88,5 @@ else
     title(sprintf('Impact Rates Per %s Surface Positions', moon_string));
 
 end
+
 
