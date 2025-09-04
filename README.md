@@ -1,6 +1,6 @@
 # Summer2025Research
 
-Here lies all of my stuff that I worked on over the Summer of 2026, under the Europa ICONS program. My overall project is focused on modelling
+Here lies all of my stuff that I worked on over the Summer of 2025, under the Europa ICONS program. My overall project is focused on modelling
 charged particle and dust grain trajectories in the electromagnetic environment around Europa. I also experiment with modelling the distribution
 of particles in Europa's exosphere and the effect of a potential plume on it, testing Europa Clipper data acquired from a flyby, and simulating 
 the electromagnetic environment of Ganymede.
