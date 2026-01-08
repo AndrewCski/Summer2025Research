@@ -14,7 +14,7 @@ thetas = -90:grid_len:90;
 phis = 0:grid_len:359;
 Z = zeros(length(thetas), length(phis));  % rows = theta (lat), cols = phi (long)
 
-% Loop order flipped accordingly:
+% Loop order flipped accordingly
 for i = 1:length(thetas)
     for j = 1:length(phis)
         count = 0;
@@ -28,7 +28,7 @@ for i = 1:length(thetas)
             end
         end
         if total > 0
-            Z(i, j) = count / total * 100;  % now: row = lat, col = long
+            Z(i, j) = count / total * 100;
         else
             Z(i, j) = NaN;
         end
@@ -62,4 +62,5 @@ if energy < 1e6
     title(sprintf('Ion Access Map for: %s %.1f KeV', element, energy / 1000));
 else
     title(sprintf('Ion Access Map for: %s %.1f MeV', element, energy / (1e6)));
+
 end
