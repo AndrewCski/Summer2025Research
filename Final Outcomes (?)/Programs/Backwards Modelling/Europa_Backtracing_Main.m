@@ -64,7 +64,7 @@ update_gap = 10000;
 %%
 
 for p_index = 1:N_total
-    % initialize per-particle arrays (overallocate to max possible)
+    % initialize per-particle arrays
     r_temp = zeros(3, numsteps);
     v_temp = zeros(3, numsteps);
     
@@ -118,4 +118,5 @@ Backwards_Particle_Accessibilities(particle_traits(:, 4), particle_traits(:, 5),
 Particle_Flux_2D(r_cell, 1, numsteps, 'all', 100, sim_size, init_energies, elements(1), ...
     timestep, start, "Europa", update_gap);
 Particle_Flux_Iso(r_cell, 1, numsteps, 100, sim_size, init_energies, elements(1), ...
+
     timestep, start, "Europa", [10, 5], update_gap);
