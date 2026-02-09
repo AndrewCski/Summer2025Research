@@ -35,7 +35,7 @@ function N_n = get_neutral_vol_density(x, y, z, plume_theta, plume_phi, theta_p,
         plume_phi = deg2rad(plume_phi);
         plume_theta = plume_theta * pi / 180;
         
-        plume_r = [R_E * cos(plume_theta) * sin(plume_phi), ...
+        plume_r = [-R_E * cos(plume_theta) * sin(plume_phi), ...
             R_E * cos(plume_theta) * cos(plume_phi), R_E * sin(plume_theta)];
         
         Np0 = 2e9 * 1e6;
@@ -83,4 +83,5 @@ function N_n = get_neutral_vol_density(x, y, z, plume_theta, plume_phi, theta_p,
     if units == "cm"
         N_n = N_n ./ 1e6;
     end
+
 end
